@@ -20,8 +20,8 @@ public class Ejercicios{
         //ejercicio5();
         //ejercicio6();
         //ejercicio7();
-       ejercicio8();
-
+       //ejercicio8();
+         ejercicio9();
 
     }
 
@@ -168,7 +168,45 @@ public class Ejercicios{
 
     }
 
+    public static void ejercicio9() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Cuantos bocadillos quieres");
+        double cantidadBocadillos= scanner.nextInt();
+        System.out.println("Cuantas bebidas quieres");
+        double cantidadBebidas= scanner.nextInt();
+       final double PRECIO_BOCATA=2.5
+        final double PRECIO_BEBIDA = 1.25;
+        System.out.println("Dime cuantos sois");
+        int numerosComensales = scanner.nextInt();
+        double total = PRECIO_BEBIDA*cantidadBebidas + PRECIO_BOCATA*cantidadBocadillos;
+        double precioUsuarios= total/numerosComensales;
+        System.out.printf("ARTICULO \t\t\t\");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
 
 
 

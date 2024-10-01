@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54dd3a59-4e93-48fe-9e6a-4505d2a4bc03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/ESTRUCTURA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESTRUCTURA/src/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicios/src/Ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicios/src/Ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/EntradaTeclado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EntradaTeclado/src/EntradaTecladoA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/INICIAL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/src/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INICIAL/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/Operadores.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/src/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operadores/src/EntradaComparacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/Variable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/src/EntradaTeclado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/src/EntradaTeclado1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Variable/src/Variable.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2mpQIwFW8X37wSBiaMs4QcUetKK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54dd3a59-4e93-48fe-9e6a-4505d2a4bc03" name="Changes" comment="" />
+      <created>1727770963930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727770963930</updated>
+    </task>
+    <servers />
+  </component>
+</project>
