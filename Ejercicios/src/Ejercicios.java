@@ -21,7 +21,11 @@ public class Ejercicios{
         //ejercicio6();
         //ejercicio7();
        //ejercicio8();
-         ejercicio9();
+        // ejercicio9();
+         //ejercicio10();
+         //ejencicio13();
+         //ejercicio14(),
+        //ejercicio15();
 
     }
 
@@ -168,42 +172,91 @@ public class Ejercicios{
 
     }
 
+
+
+
     public static void ejercicio9() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Cuantos bocadillos quieres");
-        double cantidadBocadillos= scanner.nextInt();
+        int cantidadBocadillos = scanner.nextInt();
         System.out.println("Cuantas bebidas quieres");
-        double cantidadBebidas= scanner.nextInt();
-       final double PRECIO_BOCATA=2.5
+        int cantidadBebidas = scanner.nextInt();
+        final double PRECIO_BOCATA = 2.5;
         final double PRECIO_BEBIDA = 1.25;
         System.out.println("Dime cuantos sois");
-        int numerosComensales = scanner.nextInt();
-        double total = PRECIO_BEBIDA*cantidadBebidas + PRECIO_BOCATA*cantidadBocadillos;
-        double precioUsuarios= total/numerosComensales;
-        System.out.printf("ARTICULO \t\t\t\");
+        int numeroComensales = scanner.nextInt();
+        double total = PRECIO_BEBIDA * cantidadBebidas + PRECIO_BOCATA * cantidadBocadillos;
+        double precioUsuarios = total / numeroComensales;
+        System.out.printf("ARTICULO\t\t\t\t\tCANTIDAD\t\t\t\t\tPRECIO\t\t\t\t\tCOSTE\n");
+        System.out.printf("Bocadillos\t\t\t\t%d\t\t\t\t\t\t\t%.2f\t\t\t\t\t%.2f\n",
+                cantidadBocadillos, PRECIO_BOCATA, PRECIO_BOCATA * cantidadBocadillos);
+
     }
 
+    public static void ejercicio10(){
+        Scanner scanner = new Scanner(System.in);
+System.out.println("Introduce numero unidades");
+    int unidades = scanner.nextInt();
+System.out.println("Introduce numero decenas");
+    int decenas = scanner.nextInt();
+System.out.println("Introduce numere centenas");
+    int centenas = scanner.nextInt();
+System.out.println("Introduce numero unidades de millar");
+    int unidadesMillar = scanner.nextInt();
+System.out.println ("Introduce numero decenas de millar");
+    int decenasMillar = scanner.nextInt();
+System.out.println("El numero introducido es "+decenasMillar+unidadesMillar+centenas+decenas+unidades);
 
 
+    }
+
+    public static void ejencicio13(){
+        Scanner scanner = new Scanner(System.in);
+System.out.println("Introduce el primer nunere");
+    int primerNumero = scanner.nextInt();
+System.out.println("Introduce el segundo numero");
+    int segundoNumero = scanner.nextInt();
+    boolean condicion1 = primerNumero%2==0 && segundoNumero%2!=0;
+    boolean condicion2 = primerNumero<8 && primerNumero> segundoNumero*2;
+    boolean condicion3 = primerNumero==segundoNumero|| (primerNumero-segundoNumero) <2;
+System.out.println("Condicion1: "+condicion1);
+System.out.println("Condicion2: "+condicion2);
+System.out.println("Condicion3: "+condicion3);
 
 
+    }
 
+    public static void ejercicio14(){
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dime tu edad");
+        int edad = scanner.nextInt();
+        System.out.println("Dine tu nivel de estudios");
+        int estudios = scanner.nextInt();
+        System.out.println("Dine tu salario");
+        int salario = scanner.nextInt();
+        boolean condicion = edad > 48 && (estudios>=5&& estudios<= 8) && salario < 15090;
+        System.out.println("Condicion " + condicion);
 
+    }
 
+        public static void ejercicio15(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce numero");
+        int numero = scanner.nextInt();
+        numero=5;
+        System.out.println("El resultado es:"+numero);
+        numero=3;
 
-
-
-
-
-
-
-
+}
 
 
 
 
 }
+
+
+
 
 
 
