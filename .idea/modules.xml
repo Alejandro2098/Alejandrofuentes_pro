@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Alejandrofuentes_pro.iml" filepath="$PROJECT_DIR$/.idea/Alejandrofuentes_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/ESTRUCTURA/ESTRUCTURA.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/ESTRUCTURA/ESTRUCTURA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Ejercicios.iml" filepath="$PROJECT_DIR$/Ejercicios/Ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/EntradaTeclado/EntradaTeclado.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/EntradaTeclado/EntradaTeclado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/INICIAL/INICIAL.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/INICIAL/INICIAL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/Operadores/Operadores.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/Operadores/Operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/Practicas/Practicas.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/Practicas/Practicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/Variable/Variable.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/Variable/Variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/ejercicios20/ejercicios20.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/ejercicios20/ejercicios20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/simlacro/simlacro.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/simlacro/simlacro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMA 1 Y 2/simulacro/simulacro.iml" filepath="$PROJECT_DIR$/TEMA 1 Y 2/simulacro/simulacro.iml" />
+    </modules>
+  </component>
+</project>

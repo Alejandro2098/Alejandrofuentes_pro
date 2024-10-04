@@ -26,7 +26,6 @@ public class Ejercicios{
          //ejencicio13();
          //ejercicio14(),
         //ejercicio15();
-
     }
 
     public static void ejercicio1() {
