@@ -14,7 +14,7 @@ public class Ejercicios{
     public static void main(String[] args) {
 
         //ejercicio1();
-        //ejercicio2();
+        ejercicio2();
         //ejercicio3();
         //ejercicio4();
         //ejercicio5();
