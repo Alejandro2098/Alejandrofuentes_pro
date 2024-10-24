@@ -1,276 +1,316 @@
 
 
-import javax.lang.model.element.ModuleElement;
-import java.awt.datatransfer.SystemFlavorMap;
-import java.sql.SQLOutput;
 import java.util.Scanner;
+import java.util.Random;
 
-public class Ejercicios{
-
-
-    static Scanner escribirTeclado = new Scanner(System.in);
-
+public class ejercicios {
 
     public static void main(String[] args) {
-
-        //ejercicio1();
-        ejercicio2();
-        //ejercicio3();
-        //ejercicio4();
-        //ejercicio5();
-        //ejercicio6();
-        //ejercicio7();
-       //ejercicio8();
-        // ejercicio9();
-         //ejercicio10();
-         //ejencicio13();
-         //ejercicio14(),
-        //ejercicio15();
-    }
-
-    public static void ejercicio1() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        final String NOMBRE = "Luis González";
-        final String DIRECCION = "C/ Maria de Molina";
-        final int PORTAL = 51;
-        final int PISO = 1;
-        final char LETRA = 'a';
-        final int CODIGO = 91023;
-        final String PROVINCIA = "madrid";
-        final String POBLACION = "madrid";
-        final String PAIS = "españa";
-
-        System.out.println(NOMBRE);
-        System.out.printf("%s n %d %d%c\n", DIRECCION, PORTAL, PISO, LETRA);
-        System.out.printf("%d,%s %s\n", CODIGO, POBLACION, PROVINCIA);
-        System.out.println(PAIS);
-    }
-
-    public static void ejercicio2() {
-
-        String nombreCompleto;
-        System.out.println("introduce tu nombre");
-        nombreCompleto = escribirTeclado.nextLine();
-        int edad;
-        System.out.println("escribre tu edad");
-        edad = escribirTeclado.nextInt();
-        System.out.println("te llamas " + nombreCompleto);
-        System.out.println("tienes " + edad);
-
-    }
-
-    public static void ejercicio3() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        System.out.println("dime un numero");
-        int numero1 = escribirTeclado.nextInt();
-        System.out.println("dime otro numero");
-        int numero2 = escribirTeclado.nextInt();
-        System.out.println("El numero 1 es " + numero1 + " y el numero 2 es 2" + numero2);
-        int suma = numero1 + numero2;
-        System.out.println("SUMA " + suma);
-        int resta = numero1 - numero2;
-        System.out.println("RESTA " + resta);
-        int multiplicacion = numero1 * numero2;
-        System.out.println("MULTIPLICACION " + multiplicacion);
-        int divisionEntera = numero1 / numero2;
-        System.out.println("DIVISIONENTERA " + divisionEntera);
-        int resto = numero1 % numero2;
-        System.out.println("RESTO " + resto);
-        float divisionReal = (float) numero1 / numero2;
-        System.out.println("DIVISIONREAL " + divisionReal);
-        double restoReal = (double) numero1 % numero2;
-        System.out.println("RESTO " + resto);
-
-    }
-
-    public static void ejercicio4() {
-
-        Scanner lectorTeclado = new Scanner(System.in);
-        final float BEBIDAS = 1.25F;
-        final float BOCADILLOS = 2.05F;
-        System.out.println("¿Cuantas bebidas quereis?");
-        int bebidasRespuesta = escribirTeclado.nextInt();
-        System.out.println("¿Cuantas bocadillos quereis?");
-        int bocadillosRespuesta = escribirTeclado.nextInt();
-        float costeBebidas = bebidasRespuesta * BEBIDAS;
-        System.out.println("COSTE DE LAS BEBIDAS " + costeBebidas);
-        float costeBocadillos = bocadillosRespuesta * BOCADILLOS;
-        System.out.println("COSTE DE LOS BOCADILLOS " + costeBocadillos);
-        float costeTotal = costeBebidas + costeBocadillos;
-        System.out.println("COSTE TOTAL" + costeTotal);
-
-    }
-
-
-    public static void ejercicio5() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        System.out.println("Por favor dime cuantos segundos quieres pasar");
-        int segundosTotales = lectorTeclado.nextInt();
-        int horas = segundosTotales / 3600;
-        segundosTotales = segundosTotales % 3600;
-        int minutos = segundosTotales / 60;
-        //System.out.printl("segundos restantes :+ segundosTotales);
-        segundosTotales = segundosTotales % 60;
-        System.out.println("horas:" + horas);
-        System.out.println("minutos: " + minutos);
-        System.out.println("segundos: " + segundosTotales);
-    }
-
-
-    public static void ejercicio6() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        double valor_compra;
-        System.out.println("Valor de la compra(entre 0.00 y 500.00): ");
-        valor_compra = lectorTeclado.nextFloat();
-
-        double iva;
-        System.out.println("IVA(entre 0 y 25%): ");
-        iva = lectorTeclado.nextInt();
-
-        double compra = valor_compra - (valor_compra * iva / 100);
-        double iva_resto = valor_compra - compra;
-
-        System.out.printf("Compra: %.2f\n", compra);
-        System.out.printf("IVA: %.2f\n", iva_resto);
-        System.out.println("======");
-        System.out.printf("%.2f", valor_compra);
-
-    }
-
-    public static void ejercicio7() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        System.out.println("Escribe un radio entero: ");
-        int radio = lectorTeclado.nextInt();
-        //double longitud = valor * (Math.PI * 2);
-        double longitud = 2 * Math.PI * radio;
-        System.out.println("Longitud de la circunferencia: " + longitud);
-        //double area = Math.PI * valor * 2;
-        double area = Math.PI * Math.pow(radio, 2);
-        System.out.println("Area de circulo: " + area);
-    }
-
-
-    public static void ejercicio8() {
-        Scanner lectorTeclado = new Scanner(System.in);
-        System.out.println("Escribe los grados centigrados");
-        float c = lectorTeclado.nextFloat();
-        float f = ((9 * c) / 5) + 32;
-        float k = c + 273.15F;
-        System.out.printf("Earenheit: %.2f Kelvin: %.2f\n", f, k);
-        System.out.println("Escribe los grados Farenheit");
-        f = lectorTeclado.nextFloat();
-        c = (5 * (f - 32)) / 9;
-        k = c + 273.15F;
-        System.out.printf("Centigrados: %.2f Kelvin: %.2f\n", c, k);
-        System.out.println("Escribe los grados Kelvin");
-        k = lectorTeclado.nextFloat();
-        c = k - 273.15F;
-        f = ((9 * c) / 5) + 32;
-        System.out.printf("Centigrados: %.2f Farenheit: %.2f", c, f);
-
-
-    }
-
-
-
-
-    public static void ejercicio9() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Cuantos bocadillos quieres");
-        int cantidadBocadillos = scanner.nextInt();
-        System.out.println("Cuantas bebidas quieres");
-        int cantidadBebidas = scanner.nextInt();
-        final double PRECIO_BOCATA = 2.5;
-        final double PRECIO_BEBIDA = 1.25;
-        System.out.println("Dime cuantos sois");
-        int numeroComensales = scanner.nextInt();
-        double total = PRECIO_BEBIDA * cantidadBebidas + PRECIO_BOCATA * cantidadBocadillos;
-        double precioUsuarios = total / numeroComensales;
-        System.out.printf("ARTICULO\t\t\t\t\tCANTIDAD\t\t\t\t\tPRECIO\t\t\t\t\tCOSTE\n");
-        System.out.printf("Bocadillos\t\t\t\t%d\t\t\t\t\t\t\t%.2f\t\t\t\t\t%.2f\n",
-                cantidadBocadillos, PRECIO_BOCATA, PRECIO_BOCATA * cantidadBocadillos);
 
+        // Llamada al ejercicio 1: Media de las temperaturas
+        ejercicioTemperaturas(scanner);
+
+        // Llamada al ejercicio 2: Tabla de multiplicar de un solo número
+        ejercicioTablaDeMultiplicar(scanner);
+
+        // Llamada al ejercicio 3: Tabla de multiplicar de todos los números del 0 al 10
+        ejercicioTablaDeTodos();
+
+        // Llamada al ejercicio 4: Tabla de multiplicar de números en un rango
+        ejercicioTablaRango(scanner);
+
+        // Llamada al ejercicio 5: Cálculo de potencias (BaseExponente)
+        ejercicioBaseExponente(scanner);
+
+        // Llamada al ejercicio 6: Mostrar todos los números pares entre dos dados
+        ejercicioParesEntreDosDados(scanner);
+
+        // Llamada al ejercicio 7: Simulación de lanzamientos de un dado
+        ejercicioDado(scanner);
+
+        // Llamada al ejercicio 8: Números positivos, negativos y ceros
+        ejercicioNumerosTipos(scanner);
+
+        // Llamada al ejercicio 9: Sueldos
+        ejercicioSueldos(scanner);
+
+        // Llamada al ejercicio 10: Notas de alumnos
+        ejercicio10(scanner);
+        ejercicio11(scanner);
+        ejercicio13(scanner);
+        ejercicio14(scanner);
+        ejercicio15(scanner);
+        // Cerrar el scanner
+        scanner.close();
     }
 
-    public static void ejercicio10(){
-        Scanner scanner = new Scanner(System.in);
-System.out.println("Introduce numero unidades");
-    int unidades = scanner.nextInt();
-System.out.println("Introduce numero decenas");
-    int decenas = scanner.nextInt();
-System.out.println("Introduce numere centenas");
-    int centenas = scanner.nextInt();
-System.out.println("Introduce numero unidades de millar");
-    int unidadesMillar = scanner.nextInt();
-System.out.println ("Introduce numero decenas de millar");
-    int decenasMillar = scanner.nextInt();
-System.out.println("El numero introducido es "+decenasMillar+unidadesMillar+centenas+decenas+unidades);
 
+    // Ejercicio 1: Calcular la media de las temperaturas
+    public static void ejercicioTemperaturas(Scanner scanner) {
+        // Solicitar el número de temperaturas a introducir
+        System.out.print("Introduce el número de temperaturas a ingresar: ");
+        int numTemperaturas = scanner.nextInt();
 
+        // Si el número es 0 o negativo, se establece en 10
+        if (numTemperaturas <= 0) {
+            numTemperaturas = 10;
+        }
+
+        // Inicializamos un array para almacenar las temperaturas
+        double[] temperaturas = new double[numTemperaturas];
+
+        // Bucle para pedir las temperaturas
+        for (int i = 0; i < numTemperaturas; i++) {
+            System.out.print("Introduce la temperatura " + (i + 1) + ": ");
+            temperaturas[i] = scanner.nextDouble();
+        }
+
+        // Calcular la media de las temperaturas
+        double suma = 0;
+        for (double temp : temperaturas) {
+            suma += temp;
+        }
+        double media = suma / numTemperaturas;
+
+        // Mostrar la media con dos decimales
+        System.out.printf("La media de las temperaturas es: %.2f%n", media);
     }
 
-    public static void ejencicio13(){
-        Scanner scanner = new Scanner(System.in);
-System.out.println("Introduce el primer nunere");
-    int primerNumero = scanner.nextInt();
-System.out.println("Introduce el segundo numero");
-    int segundoNumero = scanner.nextInt();
-    boolean condicion1 = primerNumero%2==0 && segundoNumero%2!=0;
-    boolean condicion2 = primerNumero<8 && primerNumero> segundoNumero*2;
-    boolean condicion3 = primerNumero==segundoNumero|| (primerNumero-segundoNumero) <2;
-System.out.println("Condicion1: "+condicion1);
-System.out.println("Condicion2: "+condicion2);
-System.out.println("Condicion3: "+condicion3);
-
-
-    }
-
-    public static void ejercicio14(){
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Dime tu edad");
-        int edad = scanner.nextInt();
-        System.out.println("Dine tu nivel de estudios");
-        int estudios = scanner.nextInt();
-        System.out.println("Dine tu salario");
-        int salario = scanner.nextInt();
-        boolean condicion = edad > 48 && (estudios>=5&& estudios<= 8) && salario < 15090;
-        System.out.println("Condicion " + condicion);
-
-    }
-
-        public static void ejercicio15(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Introduce numero");
+    // Ejercicio 2: Mostrar la tabla de multiplicar de un solo número
+    public static void ejercicioTablaDeMultiplicar(Scanner scanner) {
+        // Pedir un número entre 0 y 10
+        System.out.print("Introduce un número entre 0 y 10: ");
         int numero = scanner.nextInt();
-        numero=5;
-        System.out.println("El resultado es:"+numero);
-        numero=3;
+
+        // Verificar que el número esté en el rango adecuado
+        while (numero < 0 || numero > 10) {
+            System.out.print("Número fuera de rango. Introduce un número entre 0 y 10: ");
+            numero = scanner.nextInt();
+        }
+
+        // Mostrar la tabla de multiplicar del número introducido
+        System.out.println("Tabla de multiplicar del " + numero + ":");
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero * i));
+        }
+    }
+
+    // Ejercicio 3: Mostrar la tabla de multiplicar de todos los números del 0 al 10
+    public static void ejercicioTablaDeTodos() {
+        // Bucle para recorrer los números del 0 al 10
+        for (int numero = 0; numero <= 10; numero++) {
+            System.out.println("\nTabla de multiplicar del " + numero + ":");
+            // Para cada número, imprimir su tabla de multiplicar
+            for (int i = 0; i <= 10; i++) {
+                System.out.println(numero + " x " + i + " = " + (numero * i));
+            }
+        }
+    }
+
+    // Ejercicio 4: Mostrar la tabla de multiplicar de los números en un rango
+    public static void ejercicioTablaRango(Scanner scanner) {
+        // Pedir los dos números que definen el rango
+        System.out.print("Introduce el número inicial del rango: ");
+        int inicio = scanner.nextInt();
+        System.out.print("Introduce el número final del rango: ");
+        int fin = scanner.nextInt();
+
+        // Verificar que el rango sea válido (inicio <= fin)
+        if (inicio > fin) {
+            System.out.println("El número inicial debe ser menor o igual que el número final.");
+            return;
+        }
+
+        // Bucle para recorrer los números en el rango especificado
+        for (int numero = inicio; numero <= fin; numero++) {
+            System.out.println("\nTabla de multiplicar del " + numero + ":");
+            for (int i = 0; i <= 10; i++) {
+                System.out.println(numero + " x " + i + " = " + (numero * i));
+            }
+        }
+    }
+
+    // Ejercicio 5: Calcular la potencia de un número (base^exponente)
+    public static void ejercicioBaseExponente(Scanner scanner) {
+        // Pedir la base y el exponente
+        System.out.print("Introduce la base (entre 0 y 5): ");
+        int base = scanner.nextInt();
+        System.out.print("Introduce el exponente (entre 0 y 5): ");
+        int exponente = scanner.nextInt();
+
+        // Manejar casos especiales
+        if (base == 0 && exponente == 0) {
+            System.out.println("Error: 0^0 no está definido.");
+            return;
+        } else if (exponente == 0) {
+            System.out.println(base + "^" + exponente + " = 1");
+            return;
+        }
+
+        // Calcular la potencia base^exponente
+        int resultado = 1;
+        for (int i = 0; i < exponente; i++) {
+            resultado *= base;
+        }
+
+        // Mostrar el resultado
+        System.out.println(base + "^" + exponente + " = " + resultado);
+    }
+
+    // Ejercicio 6: Mostrar todos los números pares entre dos dados
+    public static void ejercicioParesEntreDosDados(Scanner scanner) {
+        System.out.print("Introduce el primer número: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Introduce el segundo número: ");
+        int num2 = scanner.nextInt();
+        int inicio = Math.min(num1, num2);
+        int fin = Math.max(num1, num2);
+        System.out.println("Números pares entre " + inicio + " y " + fin + ":");
+        for (int i = inicio; i <= fin; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    // Ejercicio 7: Simular el lanzamiento de un dado
+    public static void ejercicioDado(Scanner scanner) {
+        Random random = new Random();
+        System.out.print("Introduce el número de veces que se lanzará el dado: ");
+        int lanzamientos = scanner.nextInt();
+        if (lanzamientos <= 0) {
+            lanzamientos = 100;
+        }
+        for (int i = 1; i <= lanzamientos; i++) {
+            int resultado = random.nextInt(6) + 1;
+            System.out.println("Lanzamiento " + i + ": " + resultado);
+        }
+    }
+
+    // Ejercicio 8: Números positivos, negativos y ceros
+    public static void ejercicioNumerosTipos(Scanner scanner) {
+        int positivos = 0, negativos = 0, ceros = 0;
+        double sumaPositivos = 0, sumaNegativos = 0;
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("Introduce el número " + i + ": ");
+            int numero = scanner.nextInt();
+            if (numero > 0) {
+                positivos++;
+                sumaPositivos += numero;
+            } else if (numero < 0) {
+                negativos++;
+                sumaNegativos += numero;
+            } else {
+                ceros++;
+            }
+        }
+        System.out.printf("Media de los números positivos: %.2f%n", (positivos > 0 ? sumaPositivos / positivos : 0));
+        System.out.printf("Media de los números negativos: %.2f%n", (negativos > 0 ? sumaNegativos / negativos : 0));
+        System.out.println("Cantidad de ceros: " + ceros);
+    }
+
+    // Ejercicio 9: Sueldos
+    public static void ejercicioSueldos(Scanner scanner) {
+        double suma = 0;
+        int mayoresDe1000 = 0;
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("Introduce el sueldo " + i + ": ");
+            double sueldo = scanner.nextDouble();
+            suma += sueldo;
+            if (sueldo > 1000) {
+                mayoresDe1000++;
+            }
+        }
+        System.out.printf("Suma total de los sueldos: %.2f%n", suma);
+        System.out.printf("Media de los sueldos: %.2f%n", suma / 10);
+        System.out.println("Cantidad de sueldos mayores de 1000: " + mayoresDe1000);
+    }
+
+    public static void ejercicio10(Scanner scanner) {
+        // Introduce  6 notas, escribir la cantidad de alumnos
+        // aprobados,
+        // condicionados (=4) y suspensos.(NotasTipos)
+        int numeroSS = 0, numeroAP = 0, numeroCD = 0;
+        for (int i = 0; i < 6; i++) {
+            System.out.println("Introduce una nota");
+            int nota = scanner.nextInt();
+            if (nota >= 0 && nota <= 10) {
+                if (nota > 4) {
+                    numeroAP++;
+                } else if (nota < 4) {
+                    numeroSS++;
+                } else {
+                    numeroCD++;
+                }
+            } else {
+                System.out.println("Nota invalida");
+            }
+        }
+
+        System.out.println("El numero de AP es " + numeroAP);
+        System.out.println("El numero de SS es " + numeroSS);
+        System.out.println("El numero de CD es " + numeroCD);
+    }
+
+    public static void ejercicio11(Scanner scanner) {
+        System.out.println("De que lado quieres el cuadrado");
+        int lado = scanner.nextInt();
+        for (int i = 0; i < lado; i++) {
+            //System.out.println("\t+\t");
+            for (int j = 0; j < lado; j++) {
+                // primera fila o ultima
+                if (i == 0 || i == lado - 1) {
+                    System.out.print("\t+\t");
+                }
+                // primera columna o ultima
+                else if (j == 0 || j == lado - 1) {
+                    System.out.print("\t+\t");
+                } else
+                    System.out.print("\to\t");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void ejercicio13(Scanner scanner) {
+        System.out.println("Dime de que palabra quieres sacar contraria");
+        String palabra = scanner.next();
+        for (int i = palabra.length() - 1; i >= 0; i--) {
+            System.out.print(palabra.charAt(i));
+        }
+    }
+
+    public static void ejercicio14(Scanner scanner) {
+
+        System.out.println("Dime de que palabra quieres comprobar si es palindromo");
+        // String palabra = scanner.next();
+        String palabra = "Ejecúción";
+        // NO SE TIENEN EN CUENTA MAYUSCULAS NI ACENTOS
+        palabra = palabra.toLowerCase().replaceAll("ó", "o")
+                .replaceAll("á", "a")
+                .replaceAll("í", "i")
+                .replaceAll("ú", "u")
+                .replaceAll("é", "e");
+        String palabraInversa = "";
+
+        for (int i = palabra.length()-1; i >=0 ; i--) {
+            palabraInversa+=palabra.charAt(i);
+        }
+
+        if (palabra.equals(palabraInversa)){
+            System.out.println("Es palindromo");
+        } else {
+            System.out.println("No es palindromo");
+        }
+
+    }
+    public static void  ejercicio15(Scanner scanner){
+
+    }
 
 }
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
