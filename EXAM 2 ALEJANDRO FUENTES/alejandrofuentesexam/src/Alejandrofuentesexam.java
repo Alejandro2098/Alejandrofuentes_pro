@@ -1,22 +1,8 @@
 public class Alejandrofuentesexam {
-    //ejercicio2
+
     //ejercicio3
     // /ejercicio4
-public static <input> void main(String[]args) { public class ejercicio2(){;
 
-    int i = 10;
-    Object numero_usuario; int(input("Introduce un número entre 1 y 100: ");
-
-
-    numeros_generados =[random.randin(1, 100) for=in range (10)]
-
-    Object numero_maximo = max(numeros_generados);
-    Object numero_minimo = min(numeros_generados);
-    Object numero_medio = sum(numeros_generados) / len(numeros_generados);
-    Object suma_total = sum(numeros_generados);
-    Object numero_encontrado = numero_usuario;
-    in numeros_generados;
-}
 
     public class ejercicio3;(){
         printf("Números generados: {numeros_generados}");
