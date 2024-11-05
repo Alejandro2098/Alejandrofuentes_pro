@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e7b0d6-8aee-436e-9c69-16cc563dcf52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicios.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicios.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/entrada.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entrada/src/tema3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/Ejercicios.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicios/src/Ejercicios.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EXAM 2 ALEJANDRO FUENTES/examen2resulelto/src/examen2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM 2 ALEJANDRO FUENTES/alejandrofuentesexam.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
