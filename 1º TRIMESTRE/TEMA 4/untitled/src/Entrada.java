@@ -114,6 +114,7 @@ import java.util.Scanner;
         }
     }
 
+<<<<<<< HEAD
 public static void main (String[]args ){
         //definir un array con filas 5 y columnas aleatorias entre 2-6
     //rellenar el array (entera) en aleatorias
@@ -123,6 +124,9 @@ public static void main (String[]args ){
  object ( int numero 0,2,3,5,
     )
 }
+=======
+
+>>>>>>> 94ef94c5288f0a62a81dfd6b01a265a510893416
 
 
 }

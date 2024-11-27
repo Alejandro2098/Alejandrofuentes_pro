@@ -386,6 +386,7 @@ public class entrada{
             }
         }
     }
+<<<<<<< HEAD
 
 
 public static void main (String[]args ){
@@ -404,4 +405,6 @@ public static void main (String[]args ){
 
 
 
+=======
+>>>>>>> 94ef94c5288f0a62a81dfd6b01a265a510893416
 }
