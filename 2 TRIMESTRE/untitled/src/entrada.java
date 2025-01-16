@@ -30,7 +30,7 @@ import java.util.Scanner;
             return nombreHuesped;
         }
 
-        @Override
+
         public String toString() {
             return "Habitación: " + numeroHabitacion + ", Nombre: " + nombreHuesped + ", Teléfono: " + telefonoHuesped +
                     ", DNI: " + dniHuesped + ", Personas: " + numeroPersonas;
