@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 
 public class entrada {
@@ -8,7 +10,7 @@ public class entrada {
     //lista de todos los arraylist con su nombre y precio
     //pide por consola su precio minimo y muestra todos sus productos como minimo ese precio
     // lista de contenidos de mayor a menor
-lista.add("elemento a añadir")
+lista.add   ("elemento a añadir")
 
 for (int i=0;i<listaString.size();i++){
         String elemento = listaString.get(i);
@@ -36,7 +38,11 @@ public class ControlDeFlujo {
 
         int nota;
 
-        public void estructuraSwitch() {
+    public void setLisa(arraylist lisa) {
+        this.lisa = lisa;
+    }
+
+    public void estructuraSwitch() {
             nota = 8;
             switch (nota) {
                 case 1:
@@ -57,6 +63,10 @@ public class ControlDeFlujo {
         public static void main(String[] args) {
             ControlDeFlujo control = new ControlDeFlujo();
             control.estructuraSwitch();
+
         }
+
+        private static void main (String[]args{})
     }
+
 
