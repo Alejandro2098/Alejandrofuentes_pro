@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2e316f3-3166-4f45-b9fa-6716d350ef09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/Empresa1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/src/Model/Accionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/src/Model/Asalariado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/src/Model/Autonomo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/src/Model/Jefe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Empresa1/src/Model/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/EXAM 2 ALEJANDRO FUENTES/alejandrofuentesexam/alejandrofuentesexam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/EXAM 2 ALEJANDRO FUENTES/examen2resulelto/examen2resulelto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 1 Y 2/ESTRUCTURA/ESTRUCTURA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 1 Y 2/EntradaTeclado/EntradaTeclado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 1 Y 2/INICIAL/INICIAL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 1 Y 2/Operadores/Operadores.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 1 Y 2/Variable/Variable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 3/Ejercicios/Ejercicios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 3/EstructuraControl/EstructuraControl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 3/entrada/entrada.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 3/proyetoFor/proyetoFor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 4/Arrays/Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1º TRIMESTRE/TEMA 4/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 TRIMESTRE/Campeonato1/Campeonato1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 TRIMESTRE/ExamenAlejandroFM_DAM1/ExamenAlejandroFM_DAM1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 TRIMESTRE/carrera/carrera.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 TRIMESTRE/ejerciciostema5/ejerciciostema5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 TRIMESTRE/examen2evaluacion/examen2evaluacion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/src/model/Asalariado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/src/model/Autonomo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/src/model/Empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/src/model/Jefe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3ºTRIMESTRE/Trabajadores/src/model/Trabajador.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2tqV8JIqW8Sy06imG8KIl7we8JX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2e316f3-3166-4f45-b9fa-6716d350ef09" name="Changes" comment="" />
+      <created>1741079431691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741079431691</updated>
+    </task>
+    <servers />
+  </component>
+</project>
